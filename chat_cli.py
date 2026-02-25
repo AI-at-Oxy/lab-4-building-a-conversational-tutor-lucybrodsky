@@ -9,7 +9,7 @@ def ask_llm(prompt):
     response = requests.post(
         "http://localhost:11434/api/chat",
         json={
-            "model": "llama3.2",
+            "model": "gemma3:1b",
             "messages": [{"role": "user", "content": prompt}],
             "stream": False,
         },
