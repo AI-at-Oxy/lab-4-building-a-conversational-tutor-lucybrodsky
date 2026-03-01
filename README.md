@@ -1,3 +1,7 @@
+# // Student name: Cael McDermott
+# // Project: Lab 4 - Building a Conversational Tutor
+# // File name: app.py
+
 # Lab 4: Conversational Tutor with LiteLLM and Ollama
 
 ## Overview
@@ -68,31 +72,37 @@ Answer each question below by writing in the space provided. This is a markdown 
 ### 1. How did designing a *system prompt* compare to designing *frames* in Lab 3? Which gives you more control over the learning experience? Which is more work?
 
 ```
-[Your answer here]
+Designing system prompts was more challening as we had to do further testing to ensure our LLM models were working as intended. Designing frames was relatively easy, as it was just editing a string. 
 ```
 
 ### 2. Your tutor has hardcoded questions but generates responses dynamically. When is this an advantage over canned feedback? When is it a risk?
 
 ```
-[Your answer here]
+Generated responses dynamically allows the user to get feedback more closely adapted and personalized to them, allowing for a more engaging experience.
+The obvious risk this brings is the LLM getting information wrong, hallucinating and/or being exploited by the user to say dangerous things.
 ```
 
 ### 3. What tutoring strategy did you choose, and why? If you could redesign it, what would you change based on testing?
 
 ```
-[Your answer here]
+I took the "Small Steps (Programmed Instruction) tutoring strategy, as I wanted my tutor to break the Lickitung cintent into discrete, individual questions, all presented one at a time. I also utilize some of the "Immediate Feedback" method, as my yutor confirms of corrects the student's answers right after each attempt.
 ```
 
 ### 4. Skinner insisted on a low error rate and immediate, predictable reinforcement. Your LLM tutor is neither predictable nor error-free. Is that a problem? For whom?
 
 ```
-[Your answer here]
+It is a problem to Skinner, obviously. But as behaviorism is largely discredited by psychologists today, I don't think this matters all too much. I will always be somewhat cautious of using LLMs to teach students, as I am not convinced students won't be able to find ways to cheat.
 ```
 
 ### 5. A school wants to use your tutor with real students. Name three things you'd worry about.
 
 ```
-[Your answer here]
+1. The fact a school wants to use an LLM designed by an undergrad student in a little over a weak is concerning.
+
+2. Students will find ways to exploit my LLM to cheat and/or say something possibly dangerous.
+
+3. I would worry that the school district is trying my model out of desperation to be cheap and not pay the human teachers a salary they deserve.
+
 ```
 
 ## Submission Checklist

@@ -1,4 +1,7 @@
-# app.py
+# // Student name: Cael McDermott
+# // Project: Lab 4 - Building a Conversational Tutor
+# // File name: app.py
+# # app.py
 from flask import Flask, render_template, request, session, jsonify
 from litellm import completion
 from questions import TOPIC, QUESTIONS, SYSTEM_PROMPT

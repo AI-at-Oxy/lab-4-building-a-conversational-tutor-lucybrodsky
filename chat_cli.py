@@ -1,4 +1,8 @@
-# chat_cli.py
+# // Student name: Cael McDermott
+# // Project: Lab 4 - Building a Conversational Tutor
+# // File name: app.py
+# 
+# # chat_cli.py
 # A simple command-line chat with Ollama using requests.
 # Use this to verify Ollama is running before building the web app.
 

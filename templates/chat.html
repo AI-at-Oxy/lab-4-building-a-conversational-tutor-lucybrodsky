@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AI Tutor</title>
+    <title>Professor Lickitung</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -10,13 +10,13 @@
             padding: 20px;
         }
         #chat-box {
-            border: 1px solid #ccc;
+            border: 1px solid #f096a5;
             border-radius: 8px;
             height: 500px;
             overflow-y: scroll;
             padding: 15px;
             margin-bottom: 15px;
-            background: #fafafa;
+            background: #fff0f3;
         }
         .message {
             margin: 10px 0;
@@ -25,13 +25,13 @@
             max-width: 80%;
         }
         .user {
-            background: #007bff;
+            background: #f096a5;
             color: white;
             margin-left: auto;
             text-align: right;
         }
         .assistant {
-            background: #e9ecef;
+            background: #fcd8de;
             color: #333;
         }
         #input-area {
@@ -42,26 +42,26 @@
             flex: 1;
             padding: 12px;
             font-size: 1em;
-            border: 1px solid #ccc;
+            border: 1px solid #f096a5;
             border-radius: 8px;
         }
         #send-btn {
             padding: 12px 24px;
             font-size: 1em;
-            background: #007bff;
+            background: #f096a5;
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
         }
         #send-btn:disabled {
-            background: #aaa;
+            background: #f5c0c8;
             cursor: not-allowed;
         }
     </style>
 </head>
 <body>
-    <h1>AI Tutor</h1>
+    <h1>Professor Lickitung</h1>
     <p>Topic: <strong>{{ topic }}</strong> | Questions: <strong>{{ num_questions }}</strong></p>
 
     <div id="chat-box"></div>
@@ -108,5 +108,15 @@
                 if (e.key === "Enter") sendMessage();
             });
     </script>
+
+    <img style="position:fixed; left:calc(50% - 630px); bottom:40px; width:180px;"
+     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+     alt="Lickitung">
+
+<img style="position:fixed; right:calc(50% - 630px); bottom:40px; width:180px; transform:scaleX(-1);"
+     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+     alt="Lickitung">
+
+
 </body>
 </html>
