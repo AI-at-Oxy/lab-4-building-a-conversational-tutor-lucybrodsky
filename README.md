@@ -1,6 +1,4 @@
-# // Student name: Cael McDermott
-# // Project: Lab 4 - Building a Conversational Tutor
-# // File name: app.py
+# Cael McDermott
 
 # Lab 4: Conversational Tutor with LiteLLM and Ollama
 
