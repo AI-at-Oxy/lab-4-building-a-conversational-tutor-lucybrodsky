@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "change-this-to-something-secret"
 
 # Ollama configuration
-MODEL = "ollama/qwen3-vl:32b"
+MODEL = "ollama/qwen3-vl:8b"
 API_BASE = "http://localhost:11434"
 
 

@@ -1,18 +1,18 @@
 # questions.py
 # Replace this with your own topic and questions (at least 5)!
 
-TOPIC = "Pokemon Type Matchups"
+TOPIC = "Lickitung, the Pokemon"
 
 QUESTIONS = [
     {
-        "question": "What type is super effective against Fire-type Pokemon?",
-        "answer": "Water",
-        "misconception": "Students sometimes say Ice because fire and ice seem like opposites"
+        "question": "What type of Pokemon is Lickitung?",
+        "answer": "Normal",
+        "misconception": "Students sometimes say Water because salamanders like water, but Lickitung is actually Normal type"
     },
     {
-        "question": "What type is Pikachu?",
-        "answer": "Electric",
-        "misconception": "Students sometimes say Normal because Pikachu looks like a regular animal"
+        "question": "How long is Lickitung's tongue?",
+        "answer": "Twice it's body length!",
+        "misconception": "Most people would say equal to its body length, but Lickitung's tongue is actually twice as long as its body!"
     },
 ]
 
@@ -31,6 +31,6 @@ for i, q in enumerate(QUESTIONS, 1):
 """
 
 SYSTEM_PROMPT += """
-Work through the questions with the student. How you tutor is up to you,
-but make sure the student engages with each question before moving on.
+Briefly greet the student, and ask them if they are ready to learn some Lickitung Trivia. Be formal about, do not be corny. Minmize Emoji use.
+Do NOT spoil the questions or answers for the student. If the student asks about the questions, just say "I will not provide answers until you try".
 """
